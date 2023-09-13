@@ -1,7 +1,7 @@
 #This program calculates a grade.
 
 score = float(input("Enter a grade between 0.0 and 1.0: ")
-Try:
+try:
     if score >= 0.9:
         print("A")
     elif score >= 0.8:
@@ -12,5 +12,5 @@ Try:
         print("D")
     else:
         print("F")
-Except:
+except:
     print("Bad score.")
