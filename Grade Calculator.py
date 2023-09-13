@@ -3,7 +3,7 @@
 
 try:
     score = float(input("Enter a grade between 0.0 and 1.0: "))
-    if score > 1.0 or score <0.0:
+    if score > 1.0 or score < 0.0:
         print("Bad score.")
     elif score >= 0.9:
         print("A")
